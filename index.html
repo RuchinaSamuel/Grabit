@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -297,7 +298,9 @@
     <section class="w-full">
       <div class="container mx-auto py-15">
         <div class="w-[100%] lg:grid grid-cols-6 h-45 gap-4">
-          <div class="bg-gradient-to-b from-red-100 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-red-100 via-white to-white p-4 hover:bg-gradient-to-b hover:from-red-100 hover:via-red-100 hover:to-white"
+          >
             <div
               class="w-full h-full flex flex-col justify-center items-center bg-white shadow-lg rounded-lg p-4 space-y-2"
             >
@@ -311,7 +314,9 @@
             </div>
           </div>
 
-          <div class="bg-gradient-to-b from-orange-50 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-orange-50 via-white to-white p-4 hover:bg-gradient-to-b hover:from-orange-50 hover:via-orange-50 hover:to-white"
+          >
             <div class="w-full h-full bg-white shadow-lg rounded-lg space-y-1">
               <div class="flex items-end justify-end">
                 <span
@@ -331,7 +336,9 @@
             </div>
           </div>
 
-          <div class="bg-gradient-to-b from-green-100 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-green-100 via-white to-white p-4 hover:bg-gradient-to-b hover:from-green-100 hover:via-green-100 hover:to-white"
+          >
             <div
               class="w-full h-full flex flex-col justify-center items-center bg-white shadow-lg rounded-lg p-4 space-y-2"
             >
@@ -345,7 +352,9 @@
             </div>
           </div>
 
-          <div class="bg-gradient-to-b from-orange-50 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-orange-50 via-white to-white p-4 hover:bg-gradient-to-b hover:from-orange-50 hover:via-orange-50 hover:to-white"
+          >
             <div class="w-full h-full bg-white shadow-lg rounded-lg space-y-1">
               <div class="flex items-end justify-end">
                 <span
@@ -365,7 +374,9 @@
             </div>
           </div>
 
-          <div class="bg-gradient-to-b from-pink-100 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-pink-100 via-white to-white p-4 hover:bg-gradient-to-b hover:from-pink-100 hover:via-pink-100 hover:to-white"
+          >
             <div class="w-full h-full bg-white shadow-lg rounded-lg space-y-1">
               <div class="flex items-end justify-end">
                 <span
@@ -385,7 +396,9 @@
             </div>
           </div>
 
-          <div class="bg-gradient-to-b from-green-100 to-white p-4">
+          <div
+            class="bg-gradient-to-b from-green-100 via-white to-white p-4 hover:bg-gradient-to-b hover:from-green-100 hover:via-green-100 hover:to-white"
+          >
             <div
               class="w-full h-full flex flex-col justify-center items-center bg-white shadow-lg rounded-lg p-4 space-y-2"
             >
@@ -573,26 +586,35 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/6_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img src="./assets/img/products/6_2.jpg" class="" />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/6_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/6_2.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a
                           ><i
                             class="fa fa-shopping-bag"
@@ -662,29 +684,36 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/3_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/3_1.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/3_1.jpg"
+                      class="group-hover:hidden"
+                    />
 
+                    <img
+                      src="./assets/img/products/3_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
+
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
-                      <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
+                      <span class="bg-white px-2 shadow-lg py-1 text-gray-400"
                         ><a
                           ><i
                             class="fa fa-shopping-bag"
@@ -754,18 +783,21 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/2_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/2_2.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/2_1.jpg"
+                      class="group-hover:hidden"
+                    />
 
+                    <img
+                      src="./assets/img/products/2_2.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
+
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -774,7 +806,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -852,18 +888,20 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/product-1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/1_2.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/product-1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/1_2.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -872,7 +910,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -944,18 +986,20 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/24_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/24_1.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/24_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/24_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -964,7 +1008,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1036,18 +1084,20 @@
                   ></span> -->
                 </div>
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/9_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/9_2.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/9_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/9_2.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1056,7 +1106,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1131,18 +1185,20 @@
                   ></span> -->
                 </div>
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/17_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/17_1.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/17_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/17_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1151,7 +1207,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1223,13 +1283,19 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/4_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block h-full">
-                    <img src="./assets/img/products/4_2.jpg" class="" />
-
+                  <div>
+                    <img
+                      src="./assets/img/products/4_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/4_2.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1238,7 +1304,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1308,18 +1378,20 @@
                   ></span> -->
                 </div>
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/25_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/25_1.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/25_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/25_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1328,7 +1400,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1404,13 +1480,19 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/16_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block h-full">
-                    <img src="./assets/img/products/16_1.jpg" class="" />
-
+                  <div>
+                    <img
+                      src="./assets/img/products/16_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/16_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1419,7 +1501,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1489,18 +1575,20 @@
                   ></span> -->
                 </div>
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/17_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block">
-                    <div class="">
-                      <img
-                        src="./assets/img/products/17_1.jpg"
-                        class="bg-cover"
-                      />
-                    </div>
+                  <div class="">
+                    <img
+                      src="./assets/img/products/17_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/17_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1509,7 +1597,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1581,13 +1673,20 @@
                 </div>
 
                 <div class="group relative">
-                  <img
-                    src="./assets/img/products/22_1.jpg"
-                    class="group-hover:hidden"
-                  />
-                  <div class="hidden group-hover:block h-full">
-                    <img src="./assets/img/products/22_1.jpg" class="" />
+                  <div>
+                    <img
+                      src="./assets/img/products/22_1.jpg"
+                      class="group-hover:hidden"
+                    />
+                    <img
+                      src="./assets/img/products/22_1.jpg"
+                      class="group-hover:block hidden"
+                    />
+                  </div>
 
+                  <div
+                    class="hidden group-hover:block absolute bottom-0 flex justify-center items-center w-full"
+                  >
                     <div class="flex justify-center gap-3 pb-3 items-center">
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a><i class="far fa-heart" aria-hidden="true"></i></a
@@ -1596,7 +1695,11 @@
                         ><a><i class="far fa-eye" aria-hidden="true"></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
-                        ><a><i class="fa fa-exchange" aria-hidden="true"></i></a
+                        ><a
+                          ><i
+                            data-feather="repeat"
+                            class="w-[15px] h-[15px]"
+                          ></i></a
                       ></span>
                       <span class="bg-white px-2 shadow-lg py-1 text-[#4B5966]"
                         ><a
@@ -1843,5 +1946,8 @@
         </div>
       </footer>
     </section>
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>
